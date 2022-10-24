@@ -1,0 +1,11 @@
+<resources>
+	<string name="app_name">RickAndMorty</string>
+	<!-- TODO: Remove or change this placeholder text -->
+	<string name="hello_blank_fragment">Hello blank fragment</string>
+	<string name="item_character_name_example">Summer Smith</string>
+	<string name="item_character_status_example">Alive</string>
+	<string name="item_character_species_example">Human</string>
+	<string name="button_load_data_text">Load data</string>
+	<string name="button_repeat_text">Repeat</string>
+	<string name="error_message">No internet connection, try to repeat</string>
+</resources>

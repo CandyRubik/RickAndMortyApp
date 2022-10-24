@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".presentation.ui.ListFragment">
+
+
+	<androidx.recyclerview.widget.RecyclerView
+		android:id="@+id/recyclerView"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+
+	<Button
+		android:id="@+id/load_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal|center_vertical"
+		android:text="@string/button_load_data_text" />
+
+	<LinearLayout
+		android:id="@+id/error_screen"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+		<Space android:layout_width="wrap_content"
+			android:layout_height="300dp"/>
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:layout_gravity="center_horizontal|center_vertical"
+			android:textColor="@color/black"
+			android:text="@string/error_message" />
+
+		<Space android:layout_width="wrap_content"
+			android:layout_height="30dp"/>
+
+		<Button
+			android:id="@+id/repeat_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal|center_vertical"
+			android:text="@string/button_repeat_text" />
+	</LinearLayout>
+
+	<ProgressBar
+		android:id="@+id/progress_cyclic"
+		android:layout_gravity="center_horizontal|center_vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:minHeight="40dp"
+		android:minWidth="40dp" />
+
+	
+</FrameLayout>
