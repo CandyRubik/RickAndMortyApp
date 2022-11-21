@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/margin_xl"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/detail_avatar_image_size"
+        android:layout_height="@dimen/detail_avatar_image_size"
+        android:layout_gravity="center"
+        tools:src="@drawable/ic_baseline_account" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/name"
+        style="@style/TextAppearance.RickAndMorty.Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_l"
+        android:textAlignment="center"
+        tools:text="Morty Smith" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/status"
+        style="@style/TextAppearance.RickAndMorty.SubHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        tools:text="Alive" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/species"
+        style="@style/TextAppearance.RickAndMorty.SubHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        tools:text="Human" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/location"
+        style="@style/TextAppearance.RickAndMorty.SubHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        tools:text="Earth" />
+
+</LinearLayout>

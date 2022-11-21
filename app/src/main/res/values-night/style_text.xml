@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.RickAndMorty.Header" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="TextAppearance.RickAndMorty.Header2" parent="TextAppearance.RickAndMorty.Header">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.RickAndMorty.SubHeader" parent="TextAppearance.RickAndMorty.Header2">
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_gravity">left</item>
+    </style>
+
+    <style name="TextAppearance.RickAndMorty.Body" parent="TextAppearance.RickAndMorty.SubHeader">
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

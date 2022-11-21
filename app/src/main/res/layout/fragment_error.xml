@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/error_screen"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/error_dialog_bg"
+    android:elevation="40dp"
+    android:outlineAmbientShadowColor="?android:attr/textColorPrimaryInverse"
+    android:orientation="vertical"
+    android:paddingVertical="@dimen/margin_xl">
+
+    <com.google.android.material.textview.MaterialTextView
+        style="@style/TextAppearance.RickAndMorty.Header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/error_message" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/repeat_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAppearance="@style/TextAppearance.RickAndMorty.Header"
+        android:layout_marginTop="@dimen/margin_xl"
+        android:text="@string/button_repeat_text" />
+</LinearLayout>

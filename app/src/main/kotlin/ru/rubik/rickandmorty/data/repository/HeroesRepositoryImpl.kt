@@ -8,10 +8,12 @@ import ru.rubik.rickandmorty.domain.repository.HeroesRepository
 
 fun mapHeroToDomain(item: HeroDTO): Hero {
 	return Hero(
+		id = item.id,
 		name = item.name,
 		status = item.status,
 		species = item.species,
 		image = item.image,
+		location = item.location.name,
 	)
 }
 
